@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University-website</title>
+    <link rel="stylesheet" href="style.css.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html.html">
+          <img src="image/logo-removebg-preview.png" class="logo" />
+        </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html.html">HOME</a></li>
+            <li><a href="about.html.html">ABOUT</a></li>
+            <li><a href="course.html.html">COURSE</a></li>
+            <li><a href="blog.html.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    <!--about us content-->
+    <section class="about-us"></section>
+    <div class="row">
+      <div class="about-col">
+        <h1>We Are The Most Popular University In The Horn Of Africa</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum
+          aspernatur laudantium eaque enim rerum rem dolorum eum totam aliquam,
+          earum voluptatum similique provident labore optio ullam. Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Rem doloremque ipsa
+          cumque animi. Pariatur, veritatis repudiandae voluptas incidunt
+          repellendus nihil nisi eveniet quos, rem quisquam laboriosam cum dicta
+          et voluptatibus commodi suscipit.
+        </p>
+        <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+      </div>
+
+      <div class="about-col">
+        <img src="image/head.jpg" alt="" />
+      </div>
+    </div>
+
+    <!---footer-->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quaerat
+        velit consequatur modi nesciunt et ullam. <br />
+        Molestias enim quos, maiores eligendi illum neque sunt minima.
+      </p>
+
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <p>Made by <i class="fa fa-heart-o"></i> David Asefa</p>
+      </div>
+    </section>
+
+    <!---javascript--->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
